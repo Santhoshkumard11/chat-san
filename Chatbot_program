@@ -1,0 +1,36 @@
+#  First chatbot program
+
+import tkinter as tk
+import random
+window = tk.Tk()
+
+window.title("Developer Chat bot")
+title.grid(column=0,row=20)
+window.geometry("800x700")
+
+# Print Text
+lab1 = tk.Label(text = "Chat Bot Creation", font= ("Courier New",30))
+lab1.grid(column= 100,row = 0)
+
+label1 = tk.Label(text="Select the category from the list", font=("Times New Roman", 20))
+label1.grid(column=0, row=3)
+
+# Print Button
+entry1 = tk.Entry()
+entry1.grid(column=0, row = 5)
+
+
+but1 = tk.Button(text="Select from the list")
+but1.grid(column=0, row=7)
+
+
+
+window.mainloop()
+
+
+
+
+
+'''
+Created by : SANTHOSH KUMAR for Cliosight
+'''
